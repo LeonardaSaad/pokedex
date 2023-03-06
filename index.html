@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/favicon/Poké_Ball_icon.svg.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Main Js -->
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main>
+      <img alt="pokemon" class="pokemon__image" />
+
+      <h1 class="pokemon__data">
+        <span class="pokemon__number"></span> -
+        <span class="pokemon__name"></span>
+      </h1>
+
+      <form class="form">
+        <input
+          type="search"
+          class="input__search"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+
+      <div class="buttons">
+        <buttton class="button btn-prev">&lt; Prev</buttton>
+        <buttton class="button btn-next">Next &gt;</buttton>
+      </div>
+
+      <img src="./img/pokedex.png" alt="pokedex" class="pokedex" />
+    </main>
+
+    <!-- Ref: Manual do Dev - https://youtu.be/SjtdH3dWLa8 -->
+  </body>
+</html>
